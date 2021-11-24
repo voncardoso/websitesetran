@@ -1,6 +1,6 @@
 import { Flex, Button, Stack, Text  } from '@chakra-ui/react';
 import { useEffect } from 'react'
-import {Input} from '../components/Form/input';
+import {Input} from '../components/Form/Input'
 import firebase from 'firebase/compat/app'
 import 'firebase/firestore';
 
