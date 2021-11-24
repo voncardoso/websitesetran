@@ -1,5 +1,10 @@
-export function Dashboard(){
+import {Flex, SimpleGrid, Box, Text, theme} from '@chakra-ui/react';
+
+
+
+export default function  Dashboard(){
     return(
-        <h1>Hello word</h1>
+        <Flex>
+        </Flex>
     )
 }
