@@ -3,10 +3,10 @@ import { RiContactsLine, RiDashboardLine, RiGitMergeLine, RiInputMethodLine } fr
 
 export function SidBar(){
     return(
-        <Box as="aside" w="84px" mr="8" bgColor="blue.600" h="100vh">
+        <Box as="aside" w="84px"  bgColor="blue.600" h="100vh">
             <Stack spacing="12" align="flex-start">
                 <Box alignSelf="center" >
-                    <Stack mt="50vh" spacing="6">
+                    <Stack mt="45vh" spacing="6">
                         <Icon as={RiContactsLine} color="white" children="Click"  />
                         <Icon as={RiContactsLine} color="white" children="Click" />
                         <Icon as={RiContactsLine} color="white" children="Click" />
