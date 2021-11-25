@@ -3,7 +3,7 @@ import { RiContactsLine, RiDashboardLine, RiGitMergeLine, RiInputMethodLine } fr
 
 export function SidBar(){
     return(
-        <Box as="aside" w="84px"  bgColor="blue.600" h="100vh">
+        <Box as="aside" w="84px"  bgColor="blue.600" h="100vh" position="fixed">
             <Stack spacing="12" align="flex-start">
                 <Box alignSelf="center" >
                     <Stack mt="45vh" spacing="6">

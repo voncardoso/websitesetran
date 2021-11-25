@@ -7,14 +7,14 @@ export function Header(){
             as="header"
             w="100%"
             h="20"
-            maxWidth={1480}
+            maxWidth={1680}
             mx="auto"
-            bg="grey.200"
             borderBottom="2px" borderColor="white"
+            position="absolute"
         >
-            <Flex>
-                <Avatar alignSelf="center" ml="4" size="md" borderColor="pink" name="Von Harrison" bg="blue.500"/>
-                <Box ml="5" alignSelf="center">
+            <Flex >
+                <Avatar alignSelf="center" ml="4" size="md" borderColor="pink" name="Von Harrison" bg="gray.200" color="blue.600"/>
+                <Box ml="8" alignSelf="center">
                     <Text> Von Harrison </Text>
                     <Text color="gray.300" fontSize="small">Fiscal</Text>
                 </Box>
