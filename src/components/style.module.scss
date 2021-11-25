@@ -1,0 +1,43 @@
+.table {
+    max-width: 880px;
+    width: 100%;
+    justify-content: space-between;
+    height: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+
+
+        th{
+            font-size: min(16px, 5vw);
+            padding: 20px 40px;
+            color: #969CB2;
+        }
+
+        td{
+            font-size: min(18px, 5vw);
+            padding: 0px 40px;
+            color: #18111D;
+            background: #FFFFFF;
+            padding-top: 15px;
+            padding-bottom: 15px;   
+            margin: 10px;
+            border-bottom: 10px solid #F2F4F5;
+        }
+
+        .ativo{
+            color: #33CC95;
+        }
+
+        .radiousleft{
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            padding-left: 0px;
+        }
+
+        .radiousRight{
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+}
+
+
